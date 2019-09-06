@@ -1,0 +1,147 @@
+body {
+    font-family: "Indie Flower";
+    background: linear-gradient(90deg, rgba(165, 165, 165, 0.03) 0%, rgba(165, 165, 165, 0.03) 8%, rgba(235, 235, 235, 0.03) 8%, rgba(235, 235, 235, 0.03) 9%, rgba(7, 7, 7, 0.03) 9%, rgba(7, 7, 7, 0.03) 14%, rgba(212, 212, 212, 0.03) 14%, rgba(212, 212, 212, 0.03) 17%, rgba(219, 219, 219, 0.03) 17%, rgba(219, 219, 219, 0.03) 95%, rgba(86, 86, 86, 0.03) 95%, rgba(86, 86, 86, 0.03) 100%), linear-gradient(67.5deg, rgba(80, 80, 80, 0.03) 0%, rgba(80, 80, 80, 0.03) 11%, rgba(138, 138, 138, 0.03) 11%, rgba(138, 138, 138, 0.03) 17%, rgba(122, 122, 122, 0.03) 17%, rgba(122, 122, 122, 0.03) 24%, rgba(166, 166, 166, 0.03) 24%, rgba(166, 166, 166, 0.03) 27%, rgba(245, 245, 245, 0.03) 27%, rgba(245, 245, 245, 0.03) 89%, rgba(88, 88, 88, 0.03) 89%, rgba(88, 88, 88, 0.03) 100%), linear-gradient(67.5deg, rgba(244, 244, 244, 0.03) 0%, rgba(244, 244, 244, 0.03) 4%, rgba(16, 16, 16, 0.03) 4%, rgba(16, 16, 16, 0.03) 10%, rgba(157, 157, 157, 0.03) 10%, rgba(157, 157, 157, 0.03) 20%, rgba(212, 212, 212, 0.03) 20%, rgba(212, 212, 212, 0.03) 83%, rgba(5, 5, 5, 0.03) 83%, rgba(5, 5, 5, 0.03) 84%, rgba(237, 237, 237, 0.03) 84%, rgba(237, 237, 237, 0.03) 100%), linear-gradient(90deg, #FFF, #FFF);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+img {
+    width: 600px;
+    height: 400px;
+    margin-bottom: 5%;
+}
+
+.cadre {
+    margin-bottom:2%;    
+}
+
+.card {
+    border:none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    
+}
+
+.card-body {
+    margin-top: 2%;
+    border: none;
+}
+
+.block-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: black;
+    top: 10%;
+    padding-bottom: 3%;
+    font-size: 4.8em;
+    font-weight: bolder;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 3.2em;
+    color: black;
+}
+
+p {
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin: 5% 0 3% 0;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+p {
+    margin: 0 auto;
+}
+
+.finish {
+    background-image: url("https://ak3.picdn.net/shutterstock/videos/9565343/thumb/9.jpg"),
+        url("file:///home/stark/Documents/projets/restau/NY.html");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.separator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px;
+    overflow: visible;
+    padding: 22px;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+
+
+}
+
+
+.separator:after {
+
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+
+
+.btn {
+    height: 42px;
+    background: white;
+    font-size: 2.7em;
+    color: rgba(173, 14, 14, 0.979);
+    font-weight: bolder;
+    border: none;
+}
+
+.align {
+    display: flex;
+    float: left;
+}
+
+a {
+    float: center;
+
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+
+
+@font-face {
+    font-family: "Indie Flower";
+    src: "font/raleway.ttf"
+}
